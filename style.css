@@ -1,0 +1,88 @@
+/* Establece una tipografía global */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado principal */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Título principal */
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+/* Descripción debajo del título */
+header p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+/* Estilo de la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Estilo de los encabezados de la tabla */
+table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Filas alternas de la tabla */
+table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Estilo para los links */
+a {
+    text-decoration: none;
+    color: #4CAF50;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Sección */
+section {
+    padding: 20px;
+    background-color: white;
+    margin: 0 10px;
+    border-radius: 8px;
+}
+
+/* Estilo de las celdas de la tabla */
+table td {
+    font-size: 1em;
+}
+
+/* Ajuste de las celdas de la tabla para que no se desborden */
+table td, table th {
+    word-wrap: break-word;
+}
+
+/* Estilo para el pie de página (opcional) */
+footer {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    margin-top: 20px;
+}
